@@ -225,28 +225,75 @@ img {
 {
   .topo{
     padding: 0;
-    margin: 0;
-    margin-top: 10px;
     width: 100vw;
     height: 60px;
-    margin: o auto;
+    margin: 0 auto;
   }
   .logo{
     display: none;
   }
-  a{
-    display: flex;
-    width: 32px;
-    align-items: center;
-  }
-  .caixa_topo{
-    width: auto;
-    margin: 0;
-  }
   .letracapa{
     font-size: 24px;
-
+  }
+  .caixa_topo{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .leftblock{
+    width: 100vw;
+    height: auto;
+    border: none;
+  }
+  .capabloco{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .pagecontent{
+    padding: 15px;
+    margin-top: 10px;
+    justify-content: center;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .infbloco{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sub_materias{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;    
+    height: auto;
+  }
+  .materias_inf{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .first_column{
+    height: auto;
+    width: 100%;
+  }
+  .second_column{
+    height: auto;
+    width: 100%;
   }
 
 }
+
 
