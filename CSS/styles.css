@@ -4,18 +4,15 @@ body {
   background-color: white;
   font-family: "Open Sans";
 }
-/* Tira o sublinhado dos links*/
 a {
   text-decoration: none;
 }
-/* Aplica luminosidade ao passar o mouse em cima de qualquer link */
 a:hover {
   filter: brightness(1.4);
 }
 img {
   max-width: 100%;
 }
-/* Configurações de todas fontes: */
 .bigletter_right {
   font-size: 21.5px;
   font-weight: bold;
